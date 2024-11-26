@@ -13,7 +13,7 @@ app.get("/",(req,res)=>{
 
 app.get("/:username/:id",(req,res)=>{
     let {username,id}=req.params;
-    let htmlstr=`<h1>Welcome to the page of @${username}</h1>`
+    let htmlstr=`<h1>Welcome to the page of @${username} and id ${id}</h1>`
     // res.send(`Welcome to the page of @${username}`);
     res.send(htmlstr);
 });
