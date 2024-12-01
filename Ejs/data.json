@@ -1,0 +1,36 @@
+{
+    "cat": {
+      "name": "Whiskers",
+      "followers": 1500,
+      "followings": 200,
+      "posts": [
+        {
+          "image": "https://imgs.search.brave.com/kNWxGywJW6rlvm9w73NuQk6pIKPd4GSwC_Homw25qaE/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvMTI5/MDIzMzUxOC9waG90/by9naW5nZXItY2F0/LXBvcnRyYWl0Lmpw/Zz9zPTYxMng2MTIm/dz0wJms9MjAmYz1W/LV93bktqaDR3NFdx/VkxoZTIwdC05SVVi/VW9GNDdvZERVNTY4/M2NyMkxNPQ",
+          "likes": 350,
+          "comments": 27
+        },
+        {
+          "image": "https://imgs.search.brave.com/kAxnnW96hyrx3BTwivSLbiD0zxs987vrNTVQ1gCrZ5g/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvMTQ2/NTgyNTgzL3Bob3Rv/L2NhdC1zYW5kd2lj/aC5qcGc_cz02MTJ4/NjEyJnc9MCZrPTIw/JmM9M0FlRmpPMlFS/Tmp5WGFJcDZGZ3JU/RDAyYzRLOG51cE1E/QXZqblQ2bmE0Zz0",
+          "likes": 420,
+          "comments": 40
+        }
+      ]
+    },
+    "dog": {
+      "name": "Buddy",
+      "followers": 2000,
+      "followings": 250,
+      "posts": [
+        {
+          "image": "https://imgs.search.brave.com/IipCPOF3UYlYnOl6V-yi3iexe_Avwucg6GMwVuo7138/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvMTQz/MDg0MjExNC9waG90/by9iZXN0LWZyaWVu/ZHMuanBnP3M9NjEy/eDYxMiZ3PTAmaz0y/MCZjPU1iaV9GSWNB/NEhOOEZxcDdKMmlU/bl9lMm52b3pBRmds/cGVZV0p1Z2pNWUE9",
+          "likes": 500,
+          "comments": 45
+        },
+        {
+          "image": "https://imgs.search.brave.com/ShFWYIqZjW9j5ncpKkwtUqL9q8hCjH1ZNh-FINL-b_0/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvMTEy/NDYwOTcyMC9waG90/by9jdXRlLWRvZy1y/dW5uaW5nLW91dHNp/ZGUuanBnP3M9NjEy/eDYxMiZ3PTAmaz0y/MCZjPUEtYjFKdmls/U3lNOGZ1eE5KOWJ0/T28wTE52TGRpbnhs/NGhLbVVqSm83TXM9",
+          "likes": 600,
+          "comments": 56
+        }
+      ]
+    }
+}

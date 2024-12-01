@@ -6,6 +6,8 @@ app.listen(port,()=>{
     console.log(`listning at ${port}`);
 });
 
+app.use(express.static(path.join(__dirname,"public")));
+
 app.set("view engine","ejs");
 app.set("views",path.join(__dirname,"/views"));
 
@@ -19,7 +21,14 @@ app.get("/home",(req,res)=>{
 });
 
 app.get("/ig/:username",(req,res)=>{
-    const follower=["one","two","three","four","five"];
+    const instadata=require("./data.json");
+    console.log(instadata);
     let {username}=req.params;
-    res.render("insta.ejs",{username,follower});
-})
+    const data=instadata[username];
+    console.log(data);
+    if(data){
+        res.render("insta.ejs",{data});
+    }else{
+        res.render("notfound.ejs");
+    }
+});

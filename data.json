@@ -1,0 +1,36 @@
+{
+      "cat": {
+        "name": "Whiskers",
+        "followers": 1500,
+        "followings": 200,
+        "posts": [
+          {
+            "image": "C:\CODING\Express\images\ginger-cat-portrait.webp",
+            "likes": 350,
+            "comments": 27
+          },
+          {
+            "image": "C:\CODING\Express\images\cat-sandwich.webp",
+            "likes": 420,
+            "comments": 40
+          }
+        ]
+      },
+      "dog": {
+        "name": "Buddy",
+        "followers": 2000,
+        "followings": 250,
+        "posts": [
+          {
+            "image": "dog_image_1.jpg",
+            "likes": 500,
+            "comments": 45
+          },
+          {
+            "image": "dog_image_2.jpg",
+            "likes": 600,
+            "comments": 56
+          }
+        ]
+      }
+  }
