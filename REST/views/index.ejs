@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daily Quotes</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+<%- include("include/header.ejs") %>
+    <% for (post of posts){ %>
+        <div class="post">
+            <p class="username">@ <%= post.username %></p>
+            <p class="content"><%= post.content  %></p>
+            <a href="http://localhost:3000/posts/<%=post.id%>">see in detail</a>
+            <a href="http://localhost:3000/posts/<%=post.id%>/edit">Edit</a>
+            <form action="/posts/<%-post.id%>?_method=DELETE" method="post">
+                <button >Delete</button>
+            </form>
+        </div>
+    <% } %>
+</body>
+</html>

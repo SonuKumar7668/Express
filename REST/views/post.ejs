@@ -1,0 +1,10 @@
+<%- include("include/head.ejs") %>
+<body>
+    <%- include("include/header.ejs") %>
+    <h1>Full post</h1>
+    <p> post id : <%= post.id %> </p>
+    <div class="post">
+    <p class="username"> post title : @<%= post.username %> </p>
+    <p class="content"> post content : <%= post.content %> </p>
+    </div>
+</body>
