@@ -34,4 +34,11 @@ let chats = [
     }
 ]
 
-Chat.insertMany(chats); 
+// Chat.insertMany(chats); 
+let chat = new Chat({
+        from : 'pain',
+        to : 'tsunade',
+        message : 'feel pain',
+        created_at : new Date()
+    })
+chat.save()

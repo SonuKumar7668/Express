@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    h3{
+        text-align: center;
+    }
+    form{
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        margin: auto;
+    }
+    .entities{
+        margin: 5px;
+    }
+</style>
+<body>
+    <h3>NEW CHAT</h3>
+    <form action="/chat" method="post">
+        <input type="text" class="entities" name="from" placeholder="Who are you?">
+        <textarea name="message" class="entities" id="message" placeholder="Enter you Text here"></textarea>
+        <input type="text" name="to" class="entities" placeholder="How do you want to send it to">
+        <button class="entities">submit</button>
+    </form>
+</body>
+</html>
